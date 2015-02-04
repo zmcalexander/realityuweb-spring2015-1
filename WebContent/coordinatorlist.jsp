@@ -137,15 +137,15 @@ its saved to a css i wanted to keep     -->
 <td><label for="school">High School:</label></td>
 <td><div style="overflow:visible"><input style="width:10000%" name="school" type="text" value = "<% out.println(lstGroups.get(i).getHighschool());%>"></div></td>
 <td><label for="input2">Teacher:</label></td>
-<td><div style="overflow:visible"><input style="width:10000%"  name="teacher" type="text" value = <%  out.println(""+lstGroups.get(i).getTeacher());%>></div></td>
+<td><div style="overflow:visible"><input style="width:10000%"  name="teacher" type="text" value = "<%  out.println(""+lstGroups.get(i).getTeacher());%>"></div></td>
 <td><label for="input3">Event Date</label></td>
-<td><div style="overflow:visible"><input style="width:10000%"  name="date" type="text" value = <% out.println(""+lstGroups.get(i).getEventDate()); %>></div></td>
+<td><div style="overflow:visible"><input style="width:10000%"  name="date" type="text" value = "<% out.println(""+lstGroups.get(i).getEventDate()); %>"></div></td>
 <td><label for="input4">Group Name:</label></td>
-<td><div style="overflow:visible"><input style="width:10000%" name="gName" type="text" value = <% out.println(lstGroups.get(i).getName()); %>></div></td>
+<td><div style="overflow:visible"><input style="width:10000%" name="gName" type="text" value = "<% out.println(lstGroups.get(i).getName()); %>"></div></td>
 <td><label for="input4">Login:</label></td>
-<td><div style="overflow:visible"><input style="width:10000%" name="login" type="text" value = <% out.println(lstGroups.get(i).getStudentAccessCode()); %>></div></td>
+<td><div style="overflow:visible"><input style="width:10000%" name="login" type="text" value = "<% out.println(lstGroups.get(i).getStudentAccessCode()); %>"></div></td>
 <td><label for="input4">Password:</label></td>
-<td><div style="overflow:visible"><input style="width:10000%" name="password" type="text" value = <% out.println(lstGroups.get(i).getcoordinatorCode()); %>></div></td>
+<td><div style="overflow:visible"><input style="width:10000%" name="password" type="text" value = "<% out.println(lstGroups.get(i).getcoordinatorCode()); %>"></div></td>
 </tr>
 </table>
 <br>

@@ -457,7 +457,7 @@ if (session.getAttribute("s1") == null) {
 				<option value="On-The-Job Training">On-The-Job Training</option>
 				<option value="Community College">Community College</option>
 				<option value="Technical School">Technical School</option>
-				<option value="Some College, Bachelor's Degree">Some College, Bachelor's Degree</option>
+				<option value="Some College, Bachelors Degree">Some College, Bachelor's Degree</option>
 				<option value="College + Graduate School">College + Graduate School</option>			
 			</select> 
 		</div>		
